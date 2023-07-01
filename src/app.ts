@@ -11,7 +11,7 @@ app.use(
     extended: true,
   })
 )
-// app.use(morgan('dev'))
+app.use(morgan('dev'))
 
 //Testing
 app.get('/healthz', async (req: Request, res: Response) => {
